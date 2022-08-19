@@ -1,0 +1,36 @@
+.navLink{
+    color: white
+}
+
+.navLink:hover{
+    color: purple;
+}
+
+.wrapper{
+    font-weight: bold;
+    background: white -webkit-gradient(linear, left top, right top, from(black), to(black), color-stop(0.5, purple)) 0 0 no-repeat;
+    -webkit-background-size: 150px;
+    background-size: 150px;
+    color: rgba(255, 255, 255, 0.1);
+    -webkit-background-clip: text;
+    animation: animate1 4s infinite;
+    font-size: 20px;
+    font-family: bignoodletitling;
+
+}
+
+@keyframes animate1{
+    0%, 10%{
+        background-position:  -1000px;
+    }
+    20%{
+        background-position: top left;
+    }
+    90%{
+        background-position: top right;
+    }
+    100%{
+        background-position: 1000px;
+    }
+}
+

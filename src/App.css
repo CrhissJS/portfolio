@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css?family=Bad+Script');
+
+.App {
+  text-align: center;
+}
+
+footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: transparent;
+  color: white;
+  text-align: center;
+}
+
+#stars {
+  width: 3px;
+  height: 3px;
+  background: transparent;
+  animation: animStar 50s linear infinite;
+  box-shadow: 779px 1331px purple, 324px 42px purple, 303px 586px purple,
+    1312px 276px purple, 451px 625px purple, 521px 1931px purple, 1087px 1871px purple,
+    36px 1546px purple, 132px 934px purple, 1698px 901px purple, 1418px 664px purple,
+    1448px 1157px purple, 1084px 232px purple, 347px 1776px purple, 1722px 243px purple,
+    1629px 835px purple, 479px 969px purple, 1231px 960px purple, 586px 384px purple,
+    164px 527px purple, 8px 646px purple, 1150px 1126px purple, 665px 1357px purple,
+    1556px 1982px purple, 1260px 1961px purple, 1675px 1741px purple,
+    1843px 1514px purple, 718px 1628px purple, 242px 1343px purple, 1497px 1880px purple,
+    1364px 230px purple, 1739px 1302px purple, 636px 959px purple, 304px 686px purple,
+    614px 751px purple, 1935px 816px purple, 1428px 60px purple, 355px 335px purple,
+    1594px 158px purple, 90px 60px purple, 1553px 162px purple, 1239px 1825px purple,
+    1945px 587px purple, 749px 1785px purple, 1987px 1172px purple, 1301px 1237px purple,
+    1039px 342px purple, 1585px 1481px purple, 995px 1048px purple, 524px 932px purple,
+    214px 413px purple, 1701px 1300px purple, 1037px 1613px purple, 1871px 996px purple,
+    1360px 1635px purple, 1110px 1313px purple, 412px 1783px purple, 1949px 177px purple,
+    903px 1854px purple, 700px 1936px purple, 378px 125px purple, 308px 834px purple,
+    1118px 962px purple, 1350px 1929px purple, 781px 1811px purple, 561px 137px purple,
+    757px 1148px purple, 1670px 1979px purple, 343px 739px purple, 945px 795px purple,
+    576px 1903px purple, 1078px 1436px purple, 1583px 450px purple, 1366px 474px purple,
+    297px 1873px purple, 192px 162px purple, 1624px 1633px purple, 59px 453px purple,
+    82px 1872px purple, 1933px 498px purple, 1966px 1974px purple, 1975px 1688px purple,
+    779px 314px purple, 1858px 1543px purple, 73px 1507px purple, 1693px 975px purple,
+    1683px 108px purple, 1768px 1654px purple, 654px 14px purple, 494px 171px purple,
+    1689px 1895px purple, 1660px 263px purple, 1031px 903px purple, 1203px 1393px purple,
+    1333px 1421px purple, 1113px 41px purple, 1206px 1645px purple, 1325px 1635px purple,
+    142px 388px purple, 572px 215px purple, 1535px 296px purple, 1419px 407px purple,
+    1379px 1003px purple, 329px 469px purple, 1791px 1652px purple, 935px 1802px purple,
+    1330px 1820px purple, 421px 1933px purple, 828px 365px purple, 275px 316px purple,
+    707px 960px purple, 1605px 1554px purple, 625px 58px purple, 717px 1697px purple,
+    1669px 246px purple, 1925px 322px purple, 1154px 1803px purple, 1929px 295px purple,
+    1248px 240px purple, 1045px 1755px purple, 166px 942px purple, 1888px 1773px purple,
+    678px 1963px purple, 1370px 569px purple, 1974px 1400px purple, 1786px 460px purple,
+    51px 307px purple, 784px 1400px purple, 730px 1258px purple, 1712px 393px purple,
+    416px 170px purple, 1797px 1932px purple, 572px 219px purple, 1557px 1856px purple;
+}
+
+#stars:after {
+  content: '';
+  position: absolute;
+  top: 1000px;
+  width: 3px;
+  height: 3px;
+  background: transparent;
+  box-shadow: 779px 1331px purple, 324px 42px purple, 303px 586px purple,
+    1312px 276px purple, 451px 625px purple, 521px 1931px purple, 1087px 1871px purple,
+    36px 1546px purple, 132px 934px purple, 1698px 901px purple, 1418px 664px purple,
+    1448px 1157px purple, 1084px 232px purple, 347px 1776px purple, 1722px 243px purple,
+    1629px 835px purple, 479px 969px purple, 1231px 960px purple, 586px 384px purple,
+    164px 527px purple, 8px 646px purple, 1150px 1126px purple, 665px 1357px purple,
+    1556px 1982px purple, 1260px 1961px purple, 1675px 1741px purple,
+    1843px 1514px purple, 718px 1628px purple, 242px 1343px purple, 1497px 1880px purple,
+    1364px 230px purple, 1739px 1302px purple, 636px 959px purple, 304px 686px purple,
+    614px 751px purple, 1935px 816px purple, 1428px 60px purple, 355px 335px purple,
+    1594px 158px purple, 90px 60px purple, 1553px 162px purple, 1239px 1825px purple,
+    1945px 587px purple, 749px 1785px purple, 1987px 1172px purple, 1301px 1237px purple,
+    1039px 342px purple, 1585px 1481px purple, 995px 1048px purple, 524px 932px purple,
+    214px 413px purple, 1701px 1300px purple, 1037px 1613px purple, 1871px 996px purple,
+    1360px 1635px purple, 1110px 1313px purple, 412px 1783px purple, 1949px 177px purple,
+    903px 1854px purple, 700px 1936px purple, 378px 125px purple, 308px 834px purple,
+    1118px 962px purple, 1350px 1929px purple, 781px 1811px purple, 561px 137px purple,
+    757px 1148px purple, 1670px 1979px purple, 343px 739px purple, 945px 795px purple,
+    576px 1903px purple, 1078px 1436px purple, 1583px 450px purple, 1366px 474px purple,
+    297px 1873px purple, 192px 162px purple, 1624px 1633px purple, 59px 453px purple,
+    82px 1872px purple, 1933px 498px purple, 1966px 1974px purple, 1975px 1688px purple,
+    779px 314px purple, 1858px 1543px purple, 73px 1507px purple, 1693px 975px purple,
+    1683px 108px purple, 1768px 1654px purple, 654px 14px purple, 494px 171px purple,
+    1689px 1895px purple, 1660px 263px purple, 1031px 903px purple, 1203px 1393px purple,
+    1333px 1421px purple, 1113px 41px purple, 1206px 1645px purple, 1325px 1635px purple,
+    142px 388px purple, 572px 215px purple, 1535px 296px purple, 1419px 407px purple,
+    1379px 1003px purple, 329px 469px purple, 1791px 1652px purple, 935px 1802px purple,
+    1330px 1820px purple, 421px 1933px purple, 828px 365px purple, 275px 316px purple,
+    707px 960px purple, 1605px 1554px purple, 625px 58px purple, 717px 1697px purple,
+    1669px 246px purple, 1925px 322px purple, 1154px 1803px purple, 1929px 295px purple,
+    1248px 240px purple, 1045px 1755px purple, 166px 942px purple, 1888px 1773px purple,
+    678px 1963px purple, 1370px 569px purple, 1974px 1400px purple, 1786px 460px purple,
+    51px 307px purple, 784px 1400px purple, 730px 1258px purple, 1712px 393px purple,
+    416px 170px purple, 1797px 1932px purple, 572px 219px purple, 1557px 1856px purple;
+}
+
+
+@keyframes animStar {
+  from {
+    transform: translateY(0px);
+  }
+
+  to {
+    transform: translateY(-1000px);
+  }
+}
