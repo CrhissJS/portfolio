@@ -5,8 +5,8 @@
 }
 
 .my-picture {
-    -webkit-transform: scale(.9);
-    transform: scale(.9);
+    -webkit-transform: scale(.8);
+    transform: scale(.8);
     -webkit-transition: .3s ease-in-out;
     transition: .3s ease-in-out;
     animation: animate2 5s infinite;
@@ -183,12 +183,9 @@ h1 span:nth-child(35) {
         filter: blur(2px);
         text-shadow: 0 0 10px purple,
             0 0 20px purple,
-            0 0 40px purple,
-            0 0 80px purple,
-            0 0 120px purple,
-            0 0 200px purple,
-            0 0 300px purple,
-            0 0 400px purple;
+            0 0 40px gainsboro,
+            0 0 80px gainsboro,
+            0 0 120px gainsboro;
     }
 
     5%,

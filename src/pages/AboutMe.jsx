@@ -17,7 +17,7 @@ const AboutMe = () => {
                         <span>e</span>
                     </h1>
                     <div style={{marginTop: "50px", border: "1px solid purple", padding: "40px", marginBottom: "50px"}}>
-                        <p style={{fontSize: "40px"}}>Colombian web front-end developer with extensive experience in responsive website designs development using HTML, CSS and Javascript, and development of APIs for websites with React. I focus on innovating and learning about new technologies, I like to be an analytical person who focuses on quick problem solving.</p>
+                        <p style={{fontSize: "40px", textAlign: "center"}}>Colombian front-end developer with extensive experience in responsive website designs development using HTML, CSS and Javascript, and development of APIs for websites with React. I focus on innovating and learning about new technologies, I like to be an analytical person who focuses on quick problem solving.</p>
                     </div>
                     <h1 style={{display: "flex", justifyContent: "center"}}>
                         <span>T</span>
