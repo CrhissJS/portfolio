@@ -1,12 +1,10 @@
-import './App.css'
-import 'bootswatch/dist/cyborg/bootstrap.min.css';
-import NavBar from './components/NavBar';
-import { HashRouter, Routes, Route } from 'react-router-dom'
-import { Home, AboutMe, ContactMe, Projects } from './pages'
-import Footer from './components/Footer';
+import "./App.css";
+import "bootswatch/dist/cyborg/bootstrap.min.css";
+import NavBar from "./components/NavBar";
+import { HashRouter, Routes, Route } from "react-router-dom";
+import { Home, AboutMe, ContactMe, Projects } from "./pages";
 
 function App() {
-
   return (
     <HashRouter>
       <NavBar />
@@ -19,9 +17,8 @@ function App() {
         <Route path="/projects" element={<Projects />} />
         <Route path="/contact-me" element={<ContactMe />} />
       </Routes>
-      <Footer/>
     </HashRouter>
-  )
+  );
 }
 
-export default App
+export default App;
